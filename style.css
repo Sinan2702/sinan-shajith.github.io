@@ -187,3 +187,30 @@ img {
   object-fit: cover; 
 /* ensures image isn’t stretched or cropped */
 }
+.photo-section {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.resume-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.6s ease;
+  
+  /* Start hidden and moved down */
+  opacity: 0;
+  transform: translateY(30px);
+  margin-top: 20px;
+}
+
+/* Animate when visible */
+.resume-btn.show {
+  opacity: 1;
+  transform: translateY(0);
+}
