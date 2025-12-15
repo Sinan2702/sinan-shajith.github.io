@@ -182,8 +182,7 @@ footer {
 }
 /* Make all images responsive and maintain aspect ratio */
 img {
-  max-width: 100%;    /* limits image to container width */
-  height: auto;       /* keeps original aspect ratio */
-  display: block;     /* removes extra spacing below images */
+  width: 100%;    /* limits image to container width */
+  height: auto;       /* keeps original aspect ratio */     /* removes extra spacing below images */
   object-fit: contain; /* ensures image isn’t stretched or cropped */
 }
