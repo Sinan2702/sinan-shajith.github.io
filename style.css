@@ -187,12 +187,22 @@ img {
   object-fit: cover; 
 /* ensures image isn’t stretched or cropped */
 }
+/* Photo Styling */
 .photo-section {
   position: relative;
   text-align: center;
   overflow: hidden;
 }
 
+/* Photo Image */
+.photo-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;         /* fills container */
+  object-position: center 30%; /* adjust to show head properly */
+}
+
+/* Resume Button */
 .resume-btn {
   display: inline-block;
   padding: 12px 25px;
@@ -202,8 +212,8 @@ img {
   border-radius: 8px;
   text-decoration: none;
   transition: all 0.6s ease;
-  
-  /* Start hidden and moved down */
+
+  /* Start hidden and slightly down */
   opacity: 0;
   transform: translateY(30px);
   margin-top: 20px;
