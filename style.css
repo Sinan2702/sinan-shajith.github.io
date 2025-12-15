@@ -183,6 +183,6 @@ footer {
 /* Make all images responsive and maintain aspect ratio */
 img {
   width: 100%;    /* limits image to container width */
-  height: 100%;       /* keeps original aspect ratio */     /* removes extra spacing below images */
+  height: 96%;       /* keeps original aspect ratio */     /* removes extra spacing below images */
   object-fit: cover; /* ensures image isn’t stretched or cropped */
 }
