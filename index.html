@@ -96,4 +96,15 @@
 
 <script src="script.js"></script>
 </body>
+    <script>
+  window.addEventListener('scroll', () => {
+    const btn = document.querySelector('.resume-btn');
+    const rect = btn.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+
+    if(rect.top < windowHeight - 50) {
+      btn.classList.add('show'); // show animation
+    }
+  });
+</script>
 </html>
