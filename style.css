@@ -182,9 +182,8 @@ footer {
 }
 /* Make all images responsive and maintain aspect ratio */
 img {
-  width: 100%;    /* limits image to container width */
-  height: 100%;       /* keeps original aspect ratio */     /* removes extra spacing below images */
+  width: 98%;    /* limits image to container width */
+  height: 98%;       /* keeps original aspect ratio */     /* removes extra spacing below images */
   object-fit: cover; 
-  object-position: centre 95%;
 /* ensures image isn’t stretched or cropped */
 }
