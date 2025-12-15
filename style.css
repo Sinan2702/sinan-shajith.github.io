@@ -185,6 +185,6 @@ img {
   width: 100%;    /* limits image to container width */
   height: 100%;       /* keeps original aspect ratio */     /* removes extra spacing below images */
   object-fit: cover; 
-  object-position: centre 30%;
+  object-position: centre 45%;
 /* ensures image isn’t stretched or cropped */
 }
